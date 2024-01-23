@@ -1,8 +1,7 @@
 package org.example.controllers;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiModelProperty;
-import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.example.dto.ValuteCursOnDate;
 import org.example.service.CentralRussianBankService;
@@ -14,18 +13,19 @@ import org.example.dto.ValuteCursOnDate;
 
 @RestController
 @RequiredArgsConstructor
+@Tag(name = "Операции", description = "Методы для работы с валютами")
 public class CurrencyController {
 
     private final CentralRussianBankService centralRussianBankService;
 
     @GetMapping("/getCurrencies")
-    @ApiOperation(value = "Получение курса всех валют на текущий день")
+    @Operation(summary = "Получение курса всех валют на текущий день")
     public List<ValuteCursOnDate> getValuteCursOnDate() throws Exception {
         return centralRussianBankService.getCurrenciesFromCbr();
     }
 
     @GetMapping("/getCurrency/{code}")
-    @ApiOperation(value = "Получение курса определенно валюты на текущий день")
+    @Operation(summary = "Получение курса определенно валюты на текущий день")
     public ValuteCursOnDate getCourseForCurrency(@PathVariable String code) throws Exception {
         return centralRussianBankService.getCourseForCurrency(code);
     }

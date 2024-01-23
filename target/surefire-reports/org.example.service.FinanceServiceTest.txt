@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.example.service.FinanceServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.499 s <<< FAILURE! - in org.example.service.FinanceServiceTest
+org.example.service.FinanceServiceTest  Time elapsed: 1.499 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.data with value 'class path resource [data.sql]' is invalid: The specified resource does not exist.
+Caused by: org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.data with value 'class path resource [data.sql]' is invalid: The specified resource does not exist.
+

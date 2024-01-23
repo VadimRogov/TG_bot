@@ -1,0 +1,5 @@
+org\example\repository\IncomeRepositoryTest.class
+org\example\TgbotApplicationTests.class
+org\example\repository\ActiveChatRepositoryTest.class
+org\example\controllers\CurrencyControllerTest.class
+org\example\service\FinanceServiceTest.class

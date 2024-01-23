@@ -1,0 +1,17 @@
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\service\CentralRussianBankService.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\entity\Income.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\repository\ActiveChatRepository.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\repository\SpendRepository.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\config\AppConfig.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\dto\ValuteCursOnDate.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\controllers\CurrencyController.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\service\ScheduleService.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\service\BotService.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\dto\GetCursOnDateXmlResponse.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\dto\GetCursOnDateXmlResult.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\repository\IncomeRepository.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\dto\GetCursOnDateXML.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\entity\Spend.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\TgbotApplication.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\entity\ActiveChat.java
+C:\Users\user\module_gradle\TG_bot\src\main\java\org\example\service\FinanceService.java

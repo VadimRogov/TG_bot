@@ -1,0 +1,17 @@
+org\example\service\BotService.class
+org\example\service\ScheduleService.class
+org\example\dto\ValuteCursOnDate.class
+org\example\service\CentralRussianBankService.class
+org\example\controllers\CurrencyController.class
+org\example\dto\GetCursOnDateXmlResponse.class
+org\example\service\FinanceService.class
+org\example\config\AppConfig.class
+org\example\dto\GetCursOnDateXML.class
+org\example\TgbotApplication.class
+org\example\dto\GetCursOnDateXmlResult.class
+org\example\entity\Income.class
+org\example\repository\IncomeRepository.class
+org\example\repository\ActiveChatRepository.class
+org\example\entity\ActiveChat.class
+org\example\repository\SpendRepository.class
+org\example\entity\Spend.class
