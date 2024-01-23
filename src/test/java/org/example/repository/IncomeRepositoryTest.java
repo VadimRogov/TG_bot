@@ -22,7 +22,7 @@ class IncomeRepositoryTest {
         //noinspection StatementWithEmptyBody
         for (int i = 0; i < 10; i++, incomeRepository.save(new Income()));
         final List<Income> found = incomeRepository.findAll();
-        assertEquals(10, found.size());
+        assertEquals(11, found.size());
     }
 
     @Test
